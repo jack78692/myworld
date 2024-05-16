@@ -1,0 +1,5 @@
+#EXTM3U x-tvg-url="https://github.com/mitthu786/tvepg/raw/main/epg.xml.gz, https://tobalan.github.io/epg.xml.gz, https://avkb.short.gy/epg.xml.gz, https://github.com/bebawy6/EPG/raw/master/allEPG.xml.gz, https://i.mjh.nz/Plex/all.xml.gz, https://i.mjh.nz/PlutoTV/all.xml, https://i.mjh.nz/SamsungTVPlus/all.xml"
+
+#EXTINF:0 tvg-id="set" tvg-name="ext" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/de/Sony_TV_new.png"  group-title="Hindi Entertainment",Sony SET HD
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8
