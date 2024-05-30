@@ -17,7 +17,7 @@ http://tv.cloudcdn.me:80/live.ts?channelId=260&deviceMac=00:1A:79:0A:3B:2D
 http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=546170&extension=ts&play_token=BJ8BlxmJQe
 
 
-#EXTINF:0 tvg-id="ext" group-title="Entertainment",SONY SAB*
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment",Sony SAB(*)
 http://103.152.43.207:7500/play/a0il/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment",Sony PAL
@@ -58,7 +58,7 @@ http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155971&extens
 
 #EXTINF:0 tvg-id="StarPlus.uk" group-title="Entertainment",Star Bharat HD
 #EXTVLCOPT:network-caching=1000
-http://185.243.7.154/play/live.php?mac=00:1a:79:32:c8:18&stream=156173&extension=m3u8
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156173&extension=ts&play_token=BJ8BlxmJQe
 http://195.26.87.217/live.ts?channelId=195&uid=7435&deviceMac=00:1A:79:51:4B:3A
 
 #EXTINF:0 tvg-id="StarPlus.uk" group-title="Entertainment",Star Bharat HD (backup)
@@ -140,8 +140,13 @@ http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=280897&extens
 https://amg02537-skandhamediaser-koreantv-samsungin-ad-1s.amagi.tv/playlist/amg02537-skandhamediaser-koreantv-samsungin/cb573d1e786c678a9dd43878d2f24882847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258af764cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7f6e65d43dd3ef2b60141c72b44fa83439c8101b38985088311847fa7429dc4f8d8da45d48cb2599e06e627475c2b79ebe813f5d26d85f3be7463e41b4f471a46a8a79dea3c51ec2c5868d9cdec9a51d023fa947fc10a59ba048b0185209a54ae06aae047aedfd5b52e5a1894f46445088dc489a4e66f4fd70afaa6fa93726c89c91a794acc1fb4484123b1cdfb2baae238b3ab79f5de001c3cd3df46948da2829dd3e72bcc17dcad9bf0ab9d6319662ba81fc7b363df20dc0ac7a471006f3d8f290737bee2f84d396335eae8f0083f69dfec8a91db063a881573981e4dab392844b65f417ded2ceb9b2f649d340bcf5d579d0c61d212ace97eb6cf4f86777a65cccfb3223bcfcc1e07839902ab0f7948dfd33f56440356dfe26d0c2478f98885b9c5cc781309e0fbccb1951d684771205b028fedf063dba0f4694c468f037d20431919c0508d29c7561d496ee80ec3a00c4380040a24f2e86a0e0d22c59ef1c9acfefe69993393c3f4322a7b7e66be380a6f2ef0be9f56f03d042f280dce5f2a13f3571a71eb93c8f790cf3b9dcb2af96e106109afc71e4f0d5d64704acac01ab070d6d34ce9d59a268f85eb354a8a3baf046aeef3d47ef7e08487024fa7a3591d6880c065a25728d41cc02498d8128ae44d670184636e589b2aa4cb2c5b35e60678f5/24/1920x1080_5000000/index.m3u8
 
 
-#EXTINF:0 tvg-id="1322" group-title="Entertainment",Zee Cafe HD ( Hindi)
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Zee Cafe HD ( Hindi)
 http://103.131.214.129:9985/stream/channelid/1722996146?ticket=FEF8A697AD122F0C03EC605714845B08911386C0&profile=pass
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Zee Cafe HD ( Hindi) (mac)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1532856&extension=ts&play_token=BJ8BlxmJQe
+
 
 #EXTINF:0 tvg-id="ext" group-title="Entertainment",LTN FAMILY
 http://103.131.214.129:9985/stream/channelid/359570878?ticket=0984B96EF3E888F066718B7E3FE12BA63215BA16&profile=pass
