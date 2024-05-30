@@ -1,5 +1,2146 @@
 #EXTM3U x-tvg-url="https://github.com/mitthu786/tvepg/raw/main/epg.xml.gz, https://tobalan.github.io/epg.xml.gz, https://avkb.short.gy/epg.xml.gz, https://github.com/bebawy6/EPG/raw/master/allEPG.xml.gz, https://i.mjh.nz/Plex/all.xml.gz, https://i.mjh.nz/PlutoTV/all.xml, https://i.mjh.nz/SamsungTVPlus/all.xml"
 
-#EXTINF:0 tvg-id="set" tvg-name="ext" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/de/Sony_TV_new.png"  group-title="Hindi Entertainment",Sony SET HD
+
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="Entertainment",SET HD
 #EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
 https://dai.google.com/linear/hls/event/dBdwOiGaQvy0TA1zOsjV6w/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment",Sony SAB HD
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://dai.google.com/linear/hls/event/CrTivkDESWqwvUj3zFEYEA/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment",Sony SAB HD (Backup)
+http://tv.cloudcdn.me:80/live.ts?channelId=260&deviceMac=00:1A:79:0A:3B:2D
+
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment",Sony SAB(UK)
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=546170&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",SONY SAB*
+http://103.152.43.207:7500/play/a0il/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment",Sony PAL
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://dai.google.com/linear/hls/event/dhPrGRwDRvuMQtmlzppzQQ/master.m3u8
+
+#EXTINF:0 tvg-id="channel_id" tvg-name="ext" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sony_Kal_Logo.jpeg/300px-Sony_Kal_Logo.jpeg"  group-title="Entertainment",Sony Kal
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="ZeeTV.uk" group-title="Entertainment",Zee TV HD
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155974&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="Zing.uk" group-title="Entertainment",Zing
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156046&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="ZeeTV.uk" group-title="Entertainment",Zee Anmol
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156165&extension=ts&play_token=BJ8BlxmJQe
+
+
+
+#EXTINF:0 tvg-id="ts40" group-title="Entertainment",And TV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155992&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="ts40" group-title="Entertainment",And TV HD (backup)
+http://119.156.26.155:8000/play/a074
+
+
+
+#EXTINF:0 tvg-id="StarPlus.uk" group-title="Entertainment",Star Plus HD
+#EXTVLCOPT:network-caching=1000
+http://103.152.43.207:7500/play/a0d6/index.m3u8
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155971&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="StarPlus.uk" group-title="Entertainment",Star Bharat HD
+#EXTVLCOPT:network-caching=1000
+http://185.243.7.154/play/live.php?mac=00:1a:79:32:c8:18&stream=156173&extension=m3u8
+http://195.26.87.217/live.ts?channelId=195&uid=7435&deviceMac=00:1A:79:51:4B:3A
+
+#EXTINF:0 tvg-id="StarPlus.uk" group-title="Entertainment",Star Bharat HD (backup)
+http://119.156.26.155:8000/play/a077
+
+#EXTINF:0 tvg-id="StarPlus.uk" group-title="Entertainment",Utsav Bharat
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=697929&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="Colors.in" group-title="Entertainment",Colors HD
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_ColorsHD/JCHLS/JC_ColorsHD-audio_98835_hin=98800-video=3724000.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Colors Rishtey
+https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Colors_Rishtey_voot_MOB/Fallback/Colors_Rishtey_voot_MOB-audio_98835_hin=98800-video=3724000.m3u8
+
+
+#EXTINF:0 tvg-id="5e20b730f2f8d5003d739db7-634dddc8a319c6df243f521f" group-title="Hindi",Desi Play TV
+https://r.mjh.nz/PlutoTV/63c7c122808b7400075c070f-alt.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",MTV HD Plus
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_MTVHD/JCHLS/index.m3u8
+
+
+
+#EXTINF:0 tvg-id="id-ts633" group-title="Entertainment",Investigation Discovery HD
+https://raw.githubusercontent.com/jack78692/ch/master/id.m3u8
+
+#EXTINF:0 tvg-id="ts888" group-title="Entertainment",Ishara Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://epiconvh.s.llnwi.net/ishaara/master.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" tvg-name="ext" tvg-logo="https://upload.wikimedia.org/wikipedia/hi/e/e8/%E0%A4%A8%E0%A4%9C%E0%A4%BC%E0%A4%BE%E0%A4%B0%E0%A4%BE_%E0%A4%9F%E0%A5%80%E0%A4%B5%E0%A5%80.png" group-title="Entertainment",Nazara TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://epiconvh.s.llnwi.net/live/nazara/master.m3u8
+
+#EXTINF:0 tvg-id="EPIC.in" group-title="Entertainment",Epic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://epiconvh.s.llnwi.net/epic/master.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Dangal
+https://live-dangal.akamaized.net/liveabr/pub-iodang10p4al/live_720p/chunks.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Dangal 2
+https://live-dangal2.akamaized.net/liveabr/pub-iodanga2a26kj2/live_720p/chunks.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Dhamal
+http://103.152.43.207:7500/play/a09j/index.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Enterr10
+#EXTVLCOPT:network-caching=1000
+http://185.243.7.154/play/live.php?mac=00:1a:79:32:c8:18&stream=280834&extension=m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Shemaroo Umang
+#EXTVLCOPT:network-caching=1000
+http://103.223.14.56:8000/play/a0vw/index.m3u8
+
+
+#EXTINF:0 tvg-id="SONYSAB.uk" group-title="Entertainment",Shemaroo Umang Plus
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-umang-plus/master.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Shemaroo TV
+#EXTVLCOPT:network-caching=1000
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=280897&extension=m3u8
+
+
+
+
+#EXTINF:-1 channel-id="samsung-INBC4300008IH" tvg-id="INBC4300008IH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC4300008IH_20231011T013443SQUARE.png_20231011013444.png" tvg-chno="1003" group-title="Entertainment" , Korean TV
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://amg02537-skandhamediaser-koreantv-samsungin-ad-1s.amagi.tv/playlist/amg02537-skandhamediaser-koreantv-samsungin/cb573d1e786c678a9dd43878d2f24882847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258af764cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7f6e65d43dd3ef2b60141c72b44fa83439c8101b38985088311847fa7429dc4f8d8da45d48cb2599e06e627475c2b79ebe813f5d26d85f3be7463e41b4f471a46a8a79dea3c51ec2c5868d9cdec9a51d023fa947fc10a59ba048b0185209a54ae06aae047aedfd5b52e5a1894f46445088dc489a4e66f4fd70afaa6fa93726c89c91a794acc1fb4484123b1cdfb2baae238b3ab79f5de001c3cd3df46948da2829dd3e72bcc17dcad9bf0ab9d6319662ba81fc7b363df20dc0ac7a471006f3d8f290737bee2f84d396335eae8f0083f69dfec8a91db063a881573981e4dab392844b65f417ded2ceb9b2f649d340bcf5d579d0c61d212ace97eb6cf4f86777a65cccfb3223bcfcc1e07839902ab0f7948dfd33f56440356dfe26d0c2478f98885b9c5cc781309e0fbccb1951d684771205b028fedf063dba0f4694c468f037d20431919c0508d29c7561d496ee80ec3a00c4380040a24f2e86a0e0d22c59ef1c9acfefe69993393c3f4322a7b7e66be380a6f2ef0be9f56f03d042f280dce5f2a13f3571a71eb93c8f790cf3b9dcb2af96e106109afc71e4f0d5d64704acac01ab070d6d34ce9d59a268f85eb354a8a3baf046aeef3d47ef7e08487024fa7a3591d6880c065a25728d41cc02498d8128ae44d670184636e589b2aa4cb2c5b35e60678f5/24/1920x1080_5000000/index.m3u8
+
+
+#EXTINF:0 tvg-id="1322" group-title="Entertainment",Zee Cafe HD ( Hindi)
+http://103.131.214.129:9985/stream/channelid/1722996146?ticket=FEF8A697AD122F0C03EC605714845B08911386C0&profile=pass
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",LTN FAMILY
+http://103.131.214.129:9985/stream/channelid/359570878?ticket=0984B96EF3E888F066718B7E3FE12BA63215BA16&profile=pass
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Apna Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=165619&extension=m3u8&play_token=lpcm4TUmjc
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",A1 TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=165640&extension=m3u8&play_token=lpcm4TUmjc
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Tata Play Videshi Kahaniyan
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1532837&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Tata Play Zindagi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1532847&extension=m3u8
+
+
+#EXTINF:0 tvg-id="2191" group-title="Entertainment",Atrangii TV
+#EXTVLCOPT:network-caching=1000
+http://103.223.14.56:8000/play/a0w6/index.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",The Q
+https://i.mjh.nz/SamsungTVPlus/INBD47000014D.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",The Q
+http://119.152.21.12:8000/play/a03s/index.m3u8
+
+
+#EXTINF:0 tvg-id="ts632" group-title="Entertainment",Historic Drama pk
+http://103.131.214.129:9985/stream/channelid/565129777?ticket=83EC6627D573EBFADF09757115276FF45FE20ECC&profile=pass
+
+
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Entertainment",Thriller Active
+http://103.157.210.165:8000/play/a03w/index.m3u8
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Entertainment",Comedy Active
+http://119.152.21.12:8000/play/a04a/index.m3u8
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Entertainment",Korean Drama Active
+http://119.152.21.12:8000/play/a01v/index.m3u8
+
+- - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - 
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Colors Gujarati
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_COLORSGUJARATI/JCHLS/index.m3u8
+
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_MTVHD/JCHLS/index.m3u8
+
+#EXTINF:0 tvg-id="SONYSAB.uk" group-title="Entertainment",TATAPLAY Gujarati Cinema
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155810&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Colors Gujarati Cinema
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1529331&extension=m3u8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+#EXTINF:0 tvg-id="ZeeTV.uk" group-title="Entertainment",Zee World
+https://da6c334e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9aZWVXb3JsZF9ITFM/playlist.m3u8
+
+#EXTINF:0 tvg-id="ZeeTV.uk" group-title="Entertainment",FOX (RU)
+http://stream01.vnet.am/Fox/mono.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",British Comedy
+https://i.mjh.nz/PlutoTV/60f870184865da00074210ee-alt.m3u8
+
+#EXTINF:0 tvg-id="CHAJ0500455A" group-title="Entertainment",Charlie
+https://i.mjh.nz/SamsungTVPlus/CHAJ0500455A.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Shout!TV
+https://amg00163-shoutfactory-shoutfactory-plex-ruvut.amagi.tv/playlist/amg00163-shoutfactory-shoutfactory-plex/cb543d1d7e6c648a92d43d65d3ef46a9f9591fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7651db80148b61299bce8c37683f03409a5e5afba358b1ebe35f45dc6ca3b74f55942643e39f43c88148a688d20a9a5ed774a045c892f4dfd413d4d39b4b9369e3301a16376ea6906b9adf5cb5c3e80f53f820650b530fb7c9f4ff4a2fc8434a588ab9a1fb67ae4aca8a71d5397aba579e1cc965d238ae44ffb11da2e0b9dd15143ff6915d6373a2b2fac0914532b975b59aa4ed7f7981bb20774ccc63aa54414c89cdd30dbcf52dbeb90d8396660b228d8854cac8e8f785da9859a335d8cee2993e5b3c056e66d710efd737b543ba79acdd5d25525936cef03494dc92345d634b95ce5ddc1215b7de87aadb7c41a0184d0aec34dc5f013ace666a78e02ea9ca6e6fd8725bd4676ac9585ff82a7d13b197ddb9d03579d8ebc94beb6aebf539c6f716ac7e4e2168d1dc0d2f88c8e0b2940b233f6bd74da4f2c7e4650003ed8dadb4a0017e6fb170238f4e1943301bace05085254296dd744cb05df925db6ccd094a0161ea16daaf08738a3cec4c8ca8125240659ac4b0ced2989a04fd48dac1f9363828194d897354762083edcd6ef4361d2a211d9859300afd264a52e690fee09bab67dad331f96f2c473585b83c693d7f5f2f4a979963d21ec5961eb294831cefe79f1d488073f25143d080923cb6bdc1f44e0991b85e5632c4846996255fb27dbe1c81dc74d7a746464d6c322fecba14ae0ff78fe08441fc0ba2400472ef02cbbfeba1d96b53a7dc0a043a0751186841344b28bdc9de700f6beed655803782ba18e40f2e5335258ad373455e7d7c8756c49cea819f9a97ff9f/41/384x216_699600/index.m3u8
+
+#EXTINF:0 tvg-id="5b4fc274694c027be6ed3eea" group-title="Entertainment",Pluto TV Sci-Fi
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5b4fc274694c027be6ed3eea/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Uae: Dubai TV
+https://dmieigthvll.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/playlist.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",flimrise sci fi finland
+https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/d658fce8-d72e-4407-ba5b-14b823553af5/5.m3u8
+
+
+
+#EXTINF:0 tvg-id="5dc02a44a9518600094273ac" group-title="Entertainment",Pluto TV Sci-Fi
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc02a44a9518600094273ac/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="62fa8176b9884200074ef5ae" group-title="Entertainment",The Walking Dead Universe
+https://i.mjh.nz/PlutoTV/62fa8176b9884200074ef5ae-alt.m3u8
+
+#EXTINF:0 tvg-id="ComedyCentral.uk" group-title="Entertainment",Comedy central HD
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_ComedyCentralHD/JCHLS/JC_ComedyCentralHD-audio_97234_und=97200-video=2310000.m3u8
+
+#EXTINF:0 tvg-id="ColorsInfinity.in" group-title="Entertainment",Colors infinity HD
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1116486&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="ColorsInfinity.in" group-title="Entertainment",Colors infinity HD (backup)
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_ColorsInfinityHD/JCHLS/JC_ColorsInfinityHD-audio_97234_und=97200-video=2310000.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Zee Cafe HD
+
+http://185.243.7.154/play/live.php?mac=00:1a:79:32:c8:18&stream=155730&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",AVA Series
+https://avaserieshls.wns.live/hls/stream.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",Tata Play Hits
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1532849&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Entertainment",FX2
+https://toonixhls.wns.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="CAAJ34000158F" group-title="Entertainment",MHz Now
+https://i.mjh.nz/SamsungTVPlus/CAAJ34000158F.m3u8
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Sony Max HD
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Sony Wah
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://pubads.g.doubleclick.net/ssai/event/H_ZvXWqHRGKpHcdDE5RcDA/master.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies", ZEE ANMOL CINEMA
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156146&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="ext" group-title="Movies", ZEE ANMOL CINEMA 2
+https://qrpay.fun/TS-JioTV-main/app/live.php?id=2761&e=.m3u8
+
+#EXTINF:0 tvg-id="ZeeAction.in" group-title="Movies",ZEE ACTION
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156139&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Movies",ZEE CINEMA HD
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=280772&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Movies",ZEE CINEMA HD (backup)
+http://119.156.26.155:8000/play/a076
+
+
+#EXTINF:0 tvg-id="Uae: Zee Aflam" group-title="Movies",Zee Aflam
+#EXTVLCOPT:network-caching=1000
+https://weyyak-live.akamaized.net/weyyak_zee_aflam/index.m3u8
+
+
+
+#EXTINF:0 tvg-id="ts148" group-title="Movies",And Pictures
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+http://xtv.ooo:8080/live/T4S00515/820172/66181.ts
+
+
+
+#EXTINF:0 tvg-id="ts267" group-title="Movies", And Pictures HD
+http://119.156.26.155:8000/play/a07e
+
+#EXTINF:0 tvg-id="ts267" group-title="Movies", And Pictures HD
+#EXTVLCOPT:network-caching=1000
+https://github.com/jack78692/ch/raw/master/andpic.m3u8
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155997&extension=ts&play_token=BJ8BlxmJQe
+
+
+EXTINF:0 tvg-id="ext" group-title="Movies",& Xplor HD
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=209743&extension=m3u8&play_token=lpcm4TUmjc
+
+EXTINF:0 tvg-id="ext" group-title="Movies",& Xplor HD 2
+http://xtv.ooo:8080/T4S00515/820172/66241
+
+
+#EXTINF:0 tvg-id="ts296" group-title="Movies",Bflix
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=280803&extension=ts&play_token=BJ8BlxmJQe
+
+
+
+#EXTINF:0 tvg-id="ts1117" group-title="Movies",Abzy Movies
+#EXTVLCOPT:network-caching=1000
+http://103.152.43.207:7500/play/a0iv
+
+#EXTINF:0 tvg-id="ts632" group-title="Movies",Cinema Three TV pk
+http://103.131.214.129:9985/stream/channelid/1005823665?ticket=B8ED0C9D811F2C2BC5984014A589B7ADFAF5EA5A&profile=pass
+
+
+#EXTINF:0 tvg-id="ts632" group-title="Movies",Star Gold HD
+http://119.156.26.155:8000/play/a079
+
+
+
+#EXTINF:0 tvg-id="StarGoldHD.in" group-title="Movies",Star Gold HD (Backup)
+#EXTVLCOPT:network-caching=1000
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=280766&extension=m3u8&play_token=lpcm4TUmjc
+
+#EXTINF:0 tvg-id="StarGoldHD.in" group-title="Movies",Star Gold HD (Backup)
+#EXTVLCOPT:network-caching=1000
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=155969&extension=m3u8&play_token=lpcm4TUmjc
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Star Utsav Movies
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1112131&extension=m3u8&play_token=lpcm4TUmjc
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Star Gold 2 HD
+#EXTVLCOPT:network-caching=1000
+https://raw.githubusercontent.com/jack78692/ch/master/sg2.m3u8
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1112132&extension=m3u8&play_token=lpcm4TUmjc
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Star Gold 2
+http://103.152.43.207:7500/play/a0e4/index.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Star Gold 2 (backup)
+http://119.156.26.155:8000/play/a07p
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Colors Cineplex HD
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=156003&extension=m3u8&play_token=lVMkPh4wSu
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Colors Cineplex HD (JioCinema)
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_ColorsCineplexHD/JCHLS/JC_ColorsCineplexHD-audio_33636_hin=33600-video=148000.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Colors Cineplex HD (backup)
+http://tv.cloudcdn.me/live.ts?channelId=470&uid=9592&deviceMac=00:1A:79:82:85:F0
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Colors Cineplex Superhit
+https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Rishtey_Cineplex_voot_MOB/Fallback/Rishtey_Cineplex_voot_MOB-audio_98835_hin=98800-video=2702400.m3u8
+
+#EXTINF:0 tvg-id="channel_id" tvg-name="Dhinchaak" tvg-logo="https://shorturl.at/xAITW" group-title="Movies", Dhinchaak
+#EXTVLCOPT:network-caching=1000
+http://103.223.14.56:8000/play/a0xm/index.m3u8
+
+
+#EXTINF:0 tvg-id="ts823" group-title="Movies",Alltime movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+http://filex.tv:8080/Hamza77/Hamza77/51
+
+#EXTINF:0 tvg-id="ts823" group-title="Movies",Goldmines
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=157155&extension=m3u8&play_token=lpcm4TUmjc
+
+#EXTINF:0 tvg-id="channel_id" tvg-name="Goldmines Movies" tvg-logo="https://the-media-ant.mo.cloudinary.net/uploads/mediaLogos/1694425388051/23%20Goldmines%20Movies.svg?tx=w_350" group-title="Movies", Goldmines Movies
+http://103.152.43.207:7500/play/a08l/index.m3u8
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=157158&extension=m3u8&play_token=lpcm4TUmjc
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Tata Play South Talkies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1532838&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",RDC Movies
+https://i.mjh.nz/SamsungTVPlus/INBD4700008UG.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Bollywood Prime
+https://dai.google.com/linear/hls/event/yvQpXDAeRMGU25KTu--V6Q/master.m3u8
+
+#EXTINF:0 tvg-id="ts1037" group-title="Movies",Dhamaka Movies B4U
+#EXTVLCOPT:network-caching=1000
+http://sanjibweb.live/paid/ytv.m3u8?id=3624
+
+#EXTINF:-1 channel-id="samsung-INBC4300002N8" tvg-id="INBC4300002N8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC4300002N8_20221214T015317SQUARE.png_20221214015318.png" tvg-chno="1001" group-title="Movies" , South Station
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+https://i.mjh.nz/SamsungTVPlus/INBD4800001IR.m3u8
+
+#EXTINF:0 tvg-id="ts1037" group-title="Movies",Comedy King
+https://i.mjh.nz/SamsungTVPlus/INBD4700006JD.m3u8
+
+
+
+#EXTINF:0 tvg-id="SonyMax2.uk" group-title="Movies",Sony Max 2
+#EXTVLCOPT:network-caching=1000
+https://pubads.g.doubleclick.net/ssai/event/4Jcu195QTpCNBXGnpw2I6g/master.m3u8
+
+
+#EXTINF:0 tvg-id="SonyMax2.uk" group-title="Movies",Sony Max 2 (new)
+#EXTVLCOPT:network-caching=1000
+https://pubads.g.doubleclick.net/ssai/event/4Jcu195QTpCNBXGnpw2I6g/master.m3u8
+
+EXTINF:0 tvg-id="ext" group-title="Movies",Zee Bollywood
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156166&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="channel_id" tvg-name="Star Gold Romance" tvg-logo="https://tamil.gizbot.com/img/2021/08/stargoldromancechannel-1628004709.jpg" group-title="Movies", Star Gold Romance
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=156033&extension=m3u8&play_token=lpcm4TUmjc
+
+#EXTINF:0 tvg-id="channel_id" tvg-name="Star Gold Romance" tvg-logo="https://tamil.gizbot.com/img/2021/08/stargoldromancechannel-1628004709.jpg" group-title="Movies", Star Gold Romance (backup)
+http://mag.trexlive.me:80/Michael88/Michael88/156033
+
+#EXTINF:0 tvg-id="StarGoldHD.in" group-title="Movies",Utsav Gold HD
+#EXTVLCOPT:network-caching=1000
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=267600&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Star GOLD Select HD
+http://119.156.26.155:8000/play/a07b
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Goldmines bollywood
+#EXTVLCOPT:network-caching=1000
+http://103.152.43.207:7500/play/a080/index.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Colors Cineplex Bollywood
+https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Colors_Cineplex_Bollywood_voot_MOB/Fallback/Colors_Cineplex_Bollywood_voot_MOB-audio_98835_hin=98800-video=2702400.m3u8
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Movies",Airtel Miniplex hd
+#EXTVLCOPT:network-caching=1000
+https://github.com/jack78692/ch/raw/master/amp.m3u8
+http://185.243.7.154/play/live.php?mac=00:1a:79:32:c8:18&stream=156020&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Movies",Tata Play Bollywood Premiere
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156028&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Movies",Movies Active
+#EXTVLCOPT:network-caching=1000
+http://103.152.43.207:7500/play/a0gi/index.m3u8
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Movies",Mye tv
+http://103.152.43.207:7500/play/a0hl/index.m3u8
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Movies",Cine Active
+#EXTVLCOPT:network-caching=1000
+http://103.152.43.207:7500/play/a0gg/index.m3u8
+
+
+#EXTINF:0 tvg-id="ZeeCinema.in" group-title="Movies",Hits Active
+http://103.152.43.207:7500/play/a0gd/index.m3u8
+
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",MBC Bollywood HD
+https://shls-mbcbollywood-prod-dub.shahid.net/out/v1/a79c9d7ef2a64a54a64d5c4567b3462a/index.m3u8
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO Bollywood
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1275546&extension=m3u8&play_token=lpcm4TUmjc
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Hasti TV Afgan
+https://live.hastitv.com/hls/livetv.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Gem Bollywood
+#EXTVLCOPT:network-caching=1000
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=469267&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="bollywood-hd" group-title="Movies",Bollywood Hd
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
+
+
+#EXTINF:0 tvg-id="BollywoodClassic.ro" group-title="Movies",Bollywood Classic HD
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Evergrin Classic
+#EXTVLCOPT:network-caching=1000
+http://103.152.43.207:7500/play/a0hp/index.m3u8
+http://185.243.7.154/play/live.php?mac=00:1a:79:32:c8:18&stream=155994&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ts399" group-title="Movies",MH One
+#EXTVLCOPT:network-caching=1000
+http://103.223.14.56:8000/play/a0nn/index.m3u8
+
+#EXTINF:0 tvg-id="ts970" group-title="Movies",MH One Dil Se
+#EXTVLCOPT:network-caching=1000
+http://103.223.14.56:8000/play/a0np/index.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Shemaroo bollywood
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Shemaroo bollywood 2
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",B4u Kadak
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=280798&extension=m3u8&play_token=lpcm4TUmjc
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Cine Max
+http://103.152.43.207:7500/play/a0he/index.m3u8
+
+
+#EXTINF:0 tvg-id="Uae| B4U Aflam_en" group-title="Movies",B4U Aflam
+http://xtream4.xyz:25461/majide-arabe/wfUzM9NKBq/2514
+
+
+#EXTINF:0 tvg-id="Uae| B4U Plus HD_en" group-title="Movies",B4U Plus
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=6677&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",B4U MOVIES UK
+#EXTVLCOPT:network-caching=1000
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=157163&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="182" group-title="Movies",B4U Movies india
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://195.26.87.217/live.ts?channelId=152&uid=7435&deviceMac=00:1A:79:51:4B:3A
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=280799&extension=ts&play_token=BJ8BlxmJQe
+
+
+
+#EXTINF:0 tvg-id="channel_id" tvg-name="Joo Music" tvg-logo="https://www.lyngsat.com/logo/tv/jj/joo_music_pk.png" group-title="Movies", Joo Music
+https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
+
+
+
+
+#EXTINF:-1 channel-id="samsung-INBD21000016Y" tvg-id="INBD21000016Y" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD21000016Y_20230726T002252SQUARE.png_20230726002253.png" tvg-chno="1000" group-title="Movies" , The Movie Club
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+https://i.mjh.nz/SamsungTVPlus/INBD21000016Y.m3u8
+
+
+#EXTINF:0 tvg-id="1322" group-title="Movies",&Flix HD ( Hindi)
+http://119.156.26.155:8000/play/a06x
+
+#EXTINF:0 tvg-id="1322" group-title="Movies",&Flix HD ( Hindi) (MAC)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1532831&extension=m3u8
+
+
+
+#EXTINF:0 tvg-id="1322" group-title="Movies",Sony Pix HD ( Hindi)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+http://119.156.26.155:8000/play/a07d
+
+#EXTINF:0 tvg-id="1322" group-title="Movies",Sony Pix HD ( Hindi)(MAC)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156004&extension=m3u8
+
+
+
+#EXTINF:0 tvg-id="1322" group-title="Movies",Saheen action pk
+http://103.131.214.129:9985/stream/channelid/1490997595?ticket=CAE5E135FB067D3731DA24A1A690EBC6DD20DCEF&profile=pass
+
+#EXTINF:0 tvg-id="channel_id" tvg-name="Star Gold Thrills" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star-gold-thrills-hk.png" group-title="Movies", Star Gold Thrills 
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=155996&extension=m3u8&play_token=lVMkPh4wSu
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",RAAVI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://tv.cloudcdn.me:80/live.ts?channelId=22763&deviceMac=00:1A:79:0A:3B:2D
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Filmax
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1112809&extension=m3u8&play_token=lpcm4TUmjc
+
+
+#EXTINF:-1 channel-id="samsung-INBC43000071R" tvg-id="INBC43000071R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC43000071R_20231011T013441SQUARE.png_20231011013442.png" tvg-chno="1002" group-title="Movies" , Hollywood Desi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg02537-skandhamediaser-hollywooddesi-samsungin/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
+
+#EXTINF:0 tvg-id="channel_id" tvg-name="ext" tvg-logo="ext" group-title="Movies", Tata Play Hollywood Local
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1532848&extension=ts&play_token=c1Zocn29xa
+
+
+#EXTINF:0 tvg-id="channel_id" tvg-name="ext" tvg-logo="ext" group-title="Movies", Tata Play Hollywood Local (backup)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1532848&extension=ts&play_token=c1Zocn29xa
+
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 
+ 
+ #EXTINF:0 tvg-id="1322" group-title="Movies",&Flix HD ( English)
+ http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1116484&extension=m3u8&play_token=lVMkPh4wSu
+ 
+ 
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Inplus Pak
+http://119.152.21.12:8000/play/a03a/index.m3u8
+ 
+ #EXTINF:0 tvg-id="AXN.bg" group-title="Movies",AXN
+http://45.5.151.151:8000/play/a0jz/index.m3u8
+
+ #EXTINF:0 tvg-id="AXN.bg" group-title="Movies",AXN ASIA
+https://z88.ubtvfans.com/live/rx1/1066/917914fbe52d479116c9ab03e3045dca/index.m3u8
+
+ #EXTINF:0 tvg-id="AXN.bg" group-title="Movies",AXN ASIA 2
+https://z88.ubtvfans.com/live/rx3/1044/40b9b1e709c0b85254f3fd3198f55b30/index.m3u8
+
+ #EXTINF:0 tvg-id="AXN.bg" group-title="Movies",AXN Taiwan
+https://z88.ubtvfans.com/live/rx1/2816/234280df0cd47c152708748c0ec2363e/index.m3u8
+
+ #EXTINF:0 tvg-id="AXN.bg" group-title="Movies",FXM Retro
+ https://z88.ubtvfans.com/live/rx3/1380/8859a8ea8bd8877ac6b41c259281c757/index.m3u8
+ 
+  #EXTINF:0 tvg-id="AXN.bg" group-title="Movies",TNT
+ https://z88.ubtvfans.com/live/rx3/1524/c4ac4270be08a04afaeb129bbf098a98/index.m3u8
+
+ 
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",AXN
+http://170.254.18.106/AXN/index.m3u8
+
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",AMC Movies
+http://170.254.18.106/AMC/index.m3u8
+
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",MOVIE BOX
+https://cdn1.skygo.mn/live/disk1/Moviebox/HLS-FTA/Moviebox.m3u8
+
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Hollywood Movies
+https://z88.ubtvfans.com/live/rx1/37/994b3b9fcc2b4f3ee856d7d12b5356ca/index.m3u8
+
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Celestial Movies
+https://z88.ubtvfans.com/live/rx4/2969/c83fdd2db5687a99d2ea824b84a6bc3c/index.m3u8
+
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Lotus Macau
+https://z88.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8
+
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Thrill
+https://z88.ubtvfans.com/live/rx4/2968/35c11ae4602a1e2b1a3b88409ba4dd05/index.m3u8
+
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Next TV HD
+https://z88.ubtvfans.com/live/rx1/2284/79d59ad50a6ff1e27f57853a0e5666aa/index.m3u8
+ 
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO Action
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1275552&extension=m3u8
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO Hits
+https://z88.ubtvfans.com/live/rx4/2991/273a7fe8625fa0c90e023c22b85b0121/index.m3u8
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO Indonesia
+https://z88.ubtvfans.com/live/rx4/2986/4add801e6fbd476b79dc6ed30c4723f3/index.m3u8
+
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO MAX
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1275549&extension=m3u8
+ 
+ 
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO spain HD
+http://200.52.150.5:8000/play/a0or/index.m3u8
+ 
+ 
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO + (CRB)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=533679&extension=m3u8
+
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO Xtreme HD (CRB)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=550769&extension=m3u8
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO
+http://103.110.110.11:8081/live/hbo/playlist.m3u8
+ 
+ #EXTINF:-1 tvg-logo="http://200.52.150.5:8000/playlist/tvg-logo/a0os.png" group-title="English Movies",HBO2 HD
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=533676&extension=m3u8
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO Top Ten
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1275554&extension=m3u8&play_token=MS9JPiSTvw
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",HBO Zone
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1275553&extension=m3u8&play_token=ESuWSBUPMt
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Videoland Scifi (NL)
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1282786&extension=m3u8
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Videoland Horror (NL)
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1282789&extension=m3u8
+
+#EXTINF:0 tvg-id="Hboplus.br" group-title="Movies",HBO Plus SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://170.254.18.106/HBO_PLUS/index.m3u8
+
+#EXTINF:0 tvg-id="Space.br" group-title="Movies",HBO Xtreame
+#EXTVLCOPT:network-caching=1000
+http://170.254.18.106/HBO_XTREME/index.m3u8
+
+
+#EXTINF:0 tvg-id="Space.br" group-title="Movies",HBO MUNDI
+http://170.254.18.106/HBO_MUNDI/index.m3u8
+
+#EXTINF:0 tvg-id="Space.br" group-title="Movies",HBO 2
+http://170.254.18.106/HBO2/index.m3u8
+
+#EXTINF:0 tvg-id="Space.br" group-title="Movies",HBO Family Spain
+http://170.254.18.106/HBO_FAMILY/index.m3u8
+
+#EXTINF:0 tvg-id="Space.br" group-title="Movies",HBO POP
+http://170.254.18.106/HBO_POP/index.m3u8
+
+#EXTINF:0 tvg-id="Space.br" group-title="Movies",TNT
+http://170.254.18.106/TNT/index.m3u8
+
+#EXTINF:0 tvg-id="Space.br" group-title="Movies",FX
+http://170.254.18.106/FX/index.m3u8
+
+#EXTINF:0 tvg-id="Space.br" group-title="Movies",CINEMAX
+http://170.254.18.106/CINEMAX/index.m3u8
+
+#EXTINF:0 tvg-id="MoviesNowHD.in" group-title="Movies",Movies Now HD
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=282651&extension=m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",MNX HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156021&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",MN+ 
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156025&extension=m3u8
+
+#EXTINF:0 tvg-id="avi" group-title="Movies",Cinemax
+http://170.254.18.106/CINEMAX/index.m3u8
+
+
+#EXTINF:0 tvg-id="avi" group-title="Movies",Cinemax spain
+http://45.5.151.151:8000/play/a0bu/index.m3u8
+ 
+ 
+ 
+ 
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Hulu Advanture
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1275566&extension=m3u8&play_token=DMrY39a4xV
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",bein box office 1
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=671276&extension=m3u8&play_token=lpcm4TUmjc
+
+
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Hulu Animation
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1275556&extension=m3u8&play_token=iA03ITMLjf
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Hulu fantasy
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1275561&extension=m3u8&play_token=MitTHFbwfp
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Hulu Scifi
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1275562&extension=m3u8&play_token=Wv1QOmKOAW
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",amazone action
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1275543&extension=m3u8&play_token=wJmYCfa5O9
+#EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",amazone mixta
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1275536&extension=m3u8&play_token=jjSld5ua27
+ 
+ #EXTINF:0 tvg-id="ext" group-title="Movies",Sony Pix Hd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://dai.google.com/linear/hls/event/x7rXWd2ERZ2tvyQWPmO1HA/master.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",And Prive HD
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1532832&extension=ts&play_token=BJ8BlxmJQe
+ 
+ #EXTINF:0 tvg-id="ext" group-title="Movies",Star Movies HD 
+ http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1116488&extension=ts&play_token=BJ8BlxmJQe
+
+ #EXTINF:0 tvg-id="ext" group-title="Movies",Star Movies Select HD 
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1116489&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="OSN Star Movies HD_en" group-title="Movies",Movies plus Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14
+
+#EXTINF:0 tvg-id="5e20b730f2f8d5003d739db7-5fc705eb052f6f002ef46057" group-title="Movies",IFC FILM PICKS
+#EXTVLCOPT:http-user-agent=aHR0cHM6Ly9xcmVhdGlma3UubXkuaWQgLSBwbGF5bGlzdCBxcmVhdGlma3V0dg==13)
+https://pizztv.qreatifku.my.id/cdnweb/IFCFP.m3u8
+
+#EXTINF:0 tvg-id="5e20b730f2f8d5003d739db7-5fc705e2a2236e002d69f36d" group-title="Movies",AMC THRILLERS
+https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8
+ 
+ 
+ 
+ #EXTINF:0 tvg-id="ext" group-title="Movies",Rock Entertainment
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+#http://210.210.155.35:80/dr9445/h/h16/01.m3u8
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=926153&extension=ts&play_token=cyl3JmHrJp
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Rock Action
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+#http://210.210.155.35:80/dr9445/h/h15/01.m3u8
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=926194&extension=ts&play_token=cyl3JmHrJp
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/119.jpg" group-title="Movies",HITS MOVIES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://210.210.155.35:80/uq2663/h/h206/02.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/55.jpg" group-title="Movies",Thrill
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://210.210.155.35:80/uq2663/h/h240/02.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/55.jpg" group-title="Movies",Thrill (ENG)
+
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=731796&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/101.jpg" group-title="Movies",HITS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://210.210.155.35:80/uq2663/h/h205/02.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/49.jpg" group-title="Movies",KIX HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://210.210.155.35:80/dr9445/h/h07/01.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/49.jpg" group-title="Movies",KIX HD (english)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=926171&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/92.jpg" group-title="Movies",My Cinema Europe HD
+http://210.210.155.35:80/uq2663/h/h208/02.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/87.jpg" group-title="Movies",Cinema World HD
+http://210.210.155.35:80/uq2663/h/h202/02.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/4.jpg" group-title="Movies",TRANS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/3.jpg" group-title="Movies",Trans7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+https://video.detik.com/trans7/smil:trans7.smil/chunklist_w1956697368_b744100_sleng.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Charge!
+https://dai.google.com/linear/hls/event/e1QjWFRNSR2YFYGsPbkfgg/master.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",ScreamBox TV
+https://bloodydisgusting-ingest-roku-us.cinedigm.com/playlist.m3u8
+
+#EXTINF:0 tvg-id="avi" group-title="Movies",Gem Film 
+http://103.131.214.129:9985/stream/channelid/1834383944?ticket=955CEC0FD920A65DB95AFEF197888E9C01F6D429&profile=pass
+
+#EXTINF:0 tvg-id="ext" group-title="ovies",IR: GEM Comedy
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=469284&extension=m3u8
+
+#EXTINF:0 tvg-id="avi" group-title="Movies",Gem Pixel 
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=469246&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",GEM onyx
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=469269&extension=m3u8
+
+
+
+#EXTINF:0 tvg-id="MBC Persia" group-title="Movies",MBC Persia
+https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8
+
+#EXTINF:0 tvg-id="MBC Action HD" group-title="Movies",MBC Action +6H
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://silvertv.net:1997/MehdiOIHAdAGAdir/H6ddKRJqjg/5813
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=815482&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="MBC Action HD" group-title="Movies",MBC Action FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://silvertv.net:1997/MehdiOIHAdAGAdir/H6ddKRJqjg/5813
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=189441&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="MBC 2 HD" group-title="Movies",MBC 2 +6H
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://silvertv.net:1997/MehdiOIHAdAGAdir/H6ddKRJqjg/5816
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=815486&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="MBC 2 HD" group-title="Movies",MBC 2 FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://silvertv.net:1997/MehdiOIHAdAGAdir/H6ddKRJqjg/5816
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=189438&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="MBC Max HD" group-title="Movies",MBC Max
+http://silvertv.net:1997/MehdiOIHAdAGAdir/H6ddKRJqjg/5810
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=7738&extension=ts&play_token=BJ8BlxmJQe
+
+
+
+#EXTINF:0 tvg-id="MBC Variety HD" group-title="Movies",MBC Variety HD
+http://darkteam.vip:25461/live/jonar879/LFvOeGXYLyjhk00-/2197.ts
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=695015&extension=ts&play_token=BJ8BlxmJQe
+
+
+
+#EXTINF:0 tvg-id="Eg| MIX TV" group-title="Movies",Mix Hollywood
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+http://212.102.58.251:8080/Nroa0AohHn/z3d8ZHNBWt/435
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=543648&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="SyriTV.al" group-title="Movies",syri tv
+http://live.syri.tv:6969/live/syriblue/hd/23.ts
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Kix HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://210.210.155.37/dr9445/h/h07/index.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",24/7 Movies
+https://shls-live-ak.akamaized.net/out/v1/90143f040feb40589d18c57863d9e829/index.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",24/7 Friday 13th movies (uk)
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=559569&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",24/7 horror movies (uk)
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=559553&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",24/7 scifi movies (uk)
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=559581&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Digi Gold
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=917711&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Digi Gold 1
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=917712&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Digi Gold 2
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=917713&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Digi Gold 3
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=917714&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Digi Gold 4
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=917715&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Discovery +6 HD
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=941555&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Discovery MAX +5 HD
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=941546&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Netflix Advature (AL)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=467695&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Netflix Fantasy (AL)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=467699&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Netflix Horror (AL)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=467701&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Tom and Jerry (AL)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=116162&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Disney+ (AR)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=925283&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",SBS World Movies (AUS)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156873&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Tring Action (AL)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=116181&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Tring Fantasy (AL)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=116183&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",AVA Famliy
+https://familyhls.avatv.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA CINEMA
+https://cinehls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",4U TV
+https://hls.4utv.live/hls/stream.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA FAMILY
+https://familyhls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA HD
+https://euhls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA TWO
+https://twohls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA ONE
+https://onehls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA COMEDY
+https://comedyhls.persiana.live/hls/stream.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Grand Cinema
+https://gcinemahls.wns.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="FX.tr" group-title="Movies",FX 1
+https://fxtvhls.wns.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",247Box tv
+https://hls.247box.live/hls/stream.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Damac TV
+http://51.210.227.138/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="Uae: Dubai One" group-title="Movies",Dubai One
+http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/chunklist_b1800000.m3u8
+
+
+#EXTINF:0 tvg-id="hollywood-hd" group-title="Movies",Hollywood HD
+http://sanjibweb.live/paid/ytv.m3u8?id=2261
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=107475&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Groovy TV (360p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",midnightpulp
+https://amg01201-cinedigmenterta-midnightpulp-cineverse-axym1.amagi.tv/playlist/amg01201-cinedigmenterta-midnightpulp-cineverse/playlist.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",ficom channel
+https://v3.siar.us/ficomchannel/live/playlist.m3u8
+
+ #EXTINF:0 tvg-id="ext" group-title="Movies",AMC+
+https://bcovlive-a.akamaihd.net/ba853de442c140b7b3dc020001597c0a/us-east-1/6245817279001/playlist.m3u8
+ 
+ 
+ 
+ #EXTINF:0 tvg-id="ext" group-title="Movies",Movie SPhere
+https://moviesphere-roku.amagi.tv/playlist720lp.m3u8
+#EXTINF:0 tvg-id="64a3d96f060e830008af6745" group-title="Movies",MovieSphere by Lionsgate
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/64a3d96f060e830008af6745/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="645e7828e1979c00087b75b4" group-title="English Movies",MovieSphere by Lionsgate
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/645e7828e1979c00087b75b4/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+ 
+ 
+ #EXTINF:-1 tvg-id="ext" group-title="Movies",TV5 Live
+https://live-fi.tvkaista.net/tv5/live.m3u8?src=videojs
+
+
+#EXTINF:0 tvg-id="SonyMovies.us" group-title="Movies",Sony Movies Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/smc_720p/playlist.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",netmaxtv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+http://live.netmaxtv.com:8080/live/live/HasBahCa.m3u8
+ 
+ #EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",MOVIES WORLD 1 TH (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC1/index.m3u8
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",AMC EAST
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/AMC/mono.m3u8
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",FX Spain
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/FX/mono.m3u8
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",USA EAST
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/SYFY/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",HBO PLUS HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/HBO_PLUS/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",HBO FAMILY HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/HBO_FAMILY/mono.m3u8
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",HBO 2 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/HBO2/mono.m3u8
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",HBO XTREME HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/HBO_XTREME/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",HBO HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://200.52.150.5:8000/play/a0or/index.m3u8
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",AXN HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/AXN/mono.m3u8
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",HBO POP HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/HBO_POP/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",CINEMAX HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/CINEMAX/mono.m3u8
+
+#EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",USA HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://170.254.18.106/USA/mono.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Sci-Fi
+https://sci-fi-redbox.amagi.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="5e20b730f2f8d5003d739db7-60089d8df682a3002c348297" group-title="Movies",Popcornflix Movies
+https://popcornflix-plex.amagi.tv/playlist.m3u8
+
+ 
+ #EXTINF:0 tvg-id="ext"tvg-logo="http://worldlivetv.stream/images/blank_square.png"group-title="Movies",Toonami Aftermath Movies
+http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
+ 
+ 
+ #EXTINF:0 tvg-id="ext" group-title="Movies",FilmRise Horror
+#EXTVLCOPT:http-user-agent=Android
+#EXTVLCOPT:network-caching=1000
+http://tinyurl.com/yt96wptw
+ 
+ 
+ 
+#EXTINF:0 tvg-id="ext" group-title="Movies",bizzarromovies
+https://minerva-bizzarromovies-1-it.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",WOWOWOW CINEMA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; vivo I2214 Build/TP1A.220624.014) IPTV Pro/7.0.6
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
+
+
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",TVCarib
+https://tvc.mediacaribstream.com:5443/LiveApp/streams/678996728477322762133253.m3u8
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",Star 1
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",Star 2
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs27
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",Star 3
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs28
+
+
+#EXTINF:0 tvg-id="CAAJ1700002PA" group-title="Movies",The Asylum
+https://i.mjh.nz/SamsungTVPlus/CAAJ1700002PA.m3u8
+
+#EXTINF:0 tvg-id="1591105034c1806b47438342c" group-title="Movies",The Asylum
+https://i.mjh.nz/PlutoTV/1591105034c1806b47438342c-alt.m3u8
+
+#EXTINF:0 tvg-id="6504b190473a5400083bf0f1" group-title="Movies",The Asylum
+https://i.mjh.nz/PlutoTV/162bdb1c958cb95000782088c-alt.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",The Asylum
+https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_us_theasylum_002.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",The Asylum
+https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_us_theasylum_003.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",The Asylum
+https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_us_theasylum_001.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Hi Yah
+https://linear-59.frequency.stream/dist/plex/59/hls/master/playlist.m3u8
+ 
+ 
+ #EXTINF:0 tvg-id="ext" group-title="Movies",mtv ava
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+https://live-fi.tvkaista.net/ava/live.m3u8
+#EXTINF:0 tvg-id="Ocko.cz" group-title="Movies",Ocko
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="Movies",mtv sub
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+https://live-fi.tvkaista.net/sub/live.m3u8
+#EXTINF:0 tvg-id="TheVoice.fi" group-title="Movies",kutonen
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+https://live-fi.tvkaista.net/kutonen/live.m3u8
+ 
+ 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Music",MTV Beats HD
+https://prod-sports-hin-fa.jiocinema.com/bpk-tv/MTV_Beats_HD_voot_MOB/Fallback/MTV_Beats_HD_voot_MOB-audio_98834_eng=98800-video=3724000.m3u8
+
+#EXTINF:0 tvg-id="9XM.in" group-title="Music",9XM
+https://i.mjh.nz/SamsungTVPlus/INBC28000122W.m3u8
+
+
+#EXTINF:0 tvg-id="9XJalwa.in" group-title="Music",9X Jalwa
+https://i.mjh.nz/SamsungTVPlus/INBC2800013L6.m3u8
+
+
+
+#EXTINF:0 tvg-id="E24.in" group-title="Music",I Love*
+
+
+
+#EXTINF:0 tvg-id="Mastiii.in" group-title="Music",Mastiii
+https://i.mjh.nz/SamsungTVPlus/INBB28000060I.m3u8
+
+#EXTINF:0 tvg-id="Mastiii.in" group-title="Music",Clubbing TV
+https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Clubbing_TV_voot_MOB/Fallback/Clubbing_TV_voot_MOB-audio_98835_hin=98800-video=2600000.m3u8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+#EXTINF:0 tvg-id="nickelod" group-title="Kids",Nick
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=7738&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Nick PK
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=281135&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="Sonic.in" group-title="Kids",Sonic Nickelodeon
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick-audio_33648_hin=33600-video=148000.m3u8
+
+
+#EXTINF:0 tvg-id="nickelod" group-title="Kids",Nick (backup)
+http://119.156.26.155:8000/play/a05v
+
+#EXTINF:0 tvg-id="nickelod" group-title="Kids",Nick HD+
+https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Nick_HD_Plus_voot_MOB/Fallback/index.m3u8
+
+#EXTINF:0 tvg-id="nickelod" group-title="Kids",Nick HD+
+http://103.131.214.129:9985/stream/channelid/114851840?ticket=AA6ED9E9BFDC68FCA04DCBA06CB8725521D0F69A&profile=pass
+
+#EXTINF:0 tvg-id="ts118" group-title="Kids",Nick JR
+https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Nick_Junior_voot_MOB/Fallback/index.m3u8
+
+
+
+#EXTINF:0 tvg-id="ts114" group-title="Kids",Disney Channel (Multi Audio)
+http://103.131.214.129:9985/stream/channelid/952379108.ts?ticket=F9788485A4BE9B20D5C2BB2A9C176B113D6E8AB6&profile=pass
+
+#EXTINF:0 tvg-id="ts114" group-title="Kids",Disney Channel (backup)
+http://119.156.26.155:8000/play/a05u
+
+#EXTINF:0 tvg-id="ts114" group-title="Kids",Disney Channel (MAC)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156000&extension=m3u8
+
+
+
+#EXTINF:0 tvg-id="ts587" group-title="Kids",Super Hungama
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156171&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ts114" group-title="Kids",Disney Junior (Multi Audio) (backup)
+http://119.156.26.155:8000/play/a05x
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Hungama TV ( Multiaudio)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://103.131.214.129:9985/stream/channelid/387666878.ts?ticket=47008A6FE90C547283C25473F330A1A40EA2147F&profile=pass
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Hungama TV ( Backup)
+http://119.156.26.155:8000/play/a05t
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Hungama TV ( MAC)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1097664&extension=ts&play_token=VRIUe4kmSB
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",The Q Kahaniyan
+https://i.mjh.nz/SamsungTVPlus/INBD47000042I.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Q Toonz
+https://i.mjh.nz/SamsungTVPlus/INBD4700007IQ.m3u8
+
+
+
+#EXTINF:0 tvg-id="ts114" group-title="Kids",Kidszone pak
+http://103.131.214.129:9985/stream/channelid/933996198?ticket=C2C92C02EE25FD8502F9212B703E46C78E664F91&profile=pass
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Hindi Cinema Animation HD
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=636168&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ts238" group-title="Kids",Cartoon Network India
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/cb553d1e786c648793d43e6fd1ef42a2df243dfc087a8d6933fb4b926bc10f41e2e5af97b20cac7822fb0fdf61146d5a4d009247d8780ad7967cac48240d5734c6cdd52e8be24b4daddd0c2d34b07c0e49857671ad594f32d5e0110dc51ab07a0e1ca1494d5e2082b00cb27750c59e0a957f378bbdbe306f2c180680585ee2be5da5edf50c418d39a5e7144d88264cef815fc8d549ee9ddc53ca169b75a41d959af48e8741d7d598698a6d85350d4b6c7990840bfba33badeaa9401d812b502c7954e2b0ddfa4028f42a2937e3cbea8d42da27e1b9119c3a77d16e994b977e8b7bba36a3ee43a1a4b5ad2c2b55bfe56b511884ca8dabd21b2ee71a91cee8d9603298e6044749c860dd504752fae6ea24b4fc3bb79b0698ee197751c19556d59ebd93ffb1ff29f6449bf5dff2522ad8bc2978e4748cd808f227d971a9bc7c4b3e6c77dd51d159e4a33a11714687fa3e9e7349fab303e4ae93addfe0e73bbc40a09194dee1364c4fc56795bb2f658869218a3936fa4c34ba8f9dd223d8a8c1ec0a37b491920caf2fa78203dcf20dbe7e7c7736f3a37c1115173de7e7685b6422835db28783a1561910e0f2fafbc27831137642015bc5b1b130d3a5e81d303a8d132a697f1557b101d562d049092326db11dea94625d7566f7da8f7710d1a5f97ceb0938e999f17e23180998f4c45516e6ab3370a317d93e7dd2b9a167f3e2b0dce5f1e00d7617d4de592c5e0e3f04dc68e6ba73d225923f2f91945064560216dbf957bdc4aed8317dbc29a44ad0e0f00f44de98f6236764372765ade34/90/1920x1080_5860800/index.m3u8
+
+#EXTINF:0 tvg-id="POGO.in" group-title="Kids",Pogo
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://amg01448-samsungin-pogo-samsungin-dzccl.amagi.tv/playlist/amg01448-samsungin-pogo-samsungin/cb553d1e786c648793d43e6fd1ef42a0da243dfc087a8d6933fb4b926bc10f41e2e5af97b20cac7822fb0fdf61146d5a4d009247d8780ad7967cac48240d5734c6cdd52e8be24b4daddd0c2d34b07c0e49857671ad594f32d5e0110dc51ab07a0e1ca1494d5e2082b00cb27750c59e0a957f378bbdbe306f2c180680585ee2be5da5edf55a14d138f0e71a1a882614e2835fc8d549ee9ddd5d97469b23f7469fc7f688874484d496698a6d85350d4b6c7990840bfba33badeaa9401d812b502c7954e2b0ddfa4028f42a2937e3cbea8d42da27e1b9119c3a77d16e994b977e8b7bba36a3ee43a1a4b5ad2c2b55bfe56b511884ca8dabd21b2ee71a91cee8d9603298e6044749c860dd504752fae6ea24b4fc3bb79b0698ee197751c19556d59ebd93ffb1ff29f6449bf5dff2522ad8bc2978e4748cd808f227d971a9bc7c4b3e6c77dd51d159e4a33a11714687fa3e9e7349fab303e4ae93addfe0e73bbc40a09194dee1364c4fc56795bb2f658869218a3936fa4c34ba8f9dd223d8a8c1ec0a37b491920caf2fa78203dcf20dbe7e7c7736f3a37c1115173de7e7685b6422835db28783a1561910e0f2fafbc27831137642015bc5b1b130d3a5e81d303a8d132a697f1557b101d562d049092326db11dea94625d7566f7da8f7710d1a5f97ceb0938e999f17e23180998f4c45516e6ab3370a317d93e7dd2b9a167f3e2b0dce5f1e00d7617d4de592c5e0e3f04dc68e6ba73d225923f2f91945064560216dbf957bdc4aed8317daca9304d48e8eaec34f9f1697eadba49e55ec4b0491/198/1920x1080_5860800/index.m3u8
+
+
+#EXTINF:0 tvg-id="DiscoveryKids.mx" group-title="Kids",Discovery Kids
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01448-samsungin-discoverykids-samsungin/playlist.m3u8
+
+#EXTINF:0 tvg-id="DiscoveryKids.mx" group-title="Kids",Discovery Kids (Backup)
+https://raw.githubusercontent.com/jack78692/ch/master/dkids.m3u8
+
+
+#EXTINF:0 tvg-id="ts45" group-title="Kids",SONY YAY!
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Gubbare
+https://epiconvh.s.llnwi.net/gubbare/master_1080.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids", Chumbak TV
+https://livectv2.phando.com/8006/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Kids", Unique TV
+https://raw.githubusercontent.com/jack78692/ch/master/uniq.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Manoranjan Grand
+#EXTVLCOPT:network-caching=1000
+http://103.152.43.207:7500/play/a07s/index.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Manoranjan TV
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 12) ExoPlayerLib/2.13.2
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=280860&extension=m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Manoranjan Prime
+#EXTVLCOPT:network-caching=1000
+http://103.152.43.207:7500/play/a07r/index.m3u8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",24/7 MR Bean (uk)
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=559543&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",itv2 (uk)
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=79724&extension=m3u8
+
+#EXTINF:0 tvg-id="ts238" group-title="Kids",Cartoon Network PK
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=281106&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ts114" group-title="Kids",Disney international HD
+http://185.243.7.154/play/live.php?mac=00:1a:79:32:c8:18&stream=1110627&extension=m3u8
+
+#EXTINF:0 tvg-id="ts114" group-title="Kids",Animax Asia
+https://github.com/jack78692/ch/raw/master/amax.m3u8
+
+#EXTINF:0 tvg-id="INBD13000043W" group-title="Kids",Animax English
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=731865&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="ts114" group-title="Kids",Crunchyroll
+https://r.mjh.nz/PlutoTV/65652f7fc0fc88000883537a-alt.m3u8
+
+#EXTINF:0 tvg-id="CABC2300012FY" group-title="Kids",Retro Crush
+https://i.mjh.nz/SamsungTVPlus/CABC2300012FY.m3u8
+
+#EXTINF:0 tvg-id="ext"tvg-logo="http://worldlivetv.stream/images/blank_square.png" group-title="Kids",Toonami Aftermath East
+http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext"tvg-logo="http://worldlivetv.stream/images/blank_square.png" group-title="Kids",Toonami Aftermath West
+http://api.toonamiaftermath.com:3000/pst/playlist.m3u8
+
+#EXTINF:0 tvg-id="Space.br" group-title="Kids",Primal Adult Swim
+https://adultswim-vodlive.cdn.turner.com/live/toonami/stream.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Mr Bean 24x7
+http://51.159.104.29:8080/mrbean/index.m3u8
+
+
+#EXTINF:0 tvg-id="boomerang" group-title="Kids",Boomerang (AL)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=116303&extension=m3u8
+
+
+#EXTINF:0 tvg-id="MBC 3 HD" group-title="Kids",MBC 3 HD
+https://shls-mbc3-eur-prod-dub.shahid.net/out/v1/fce09dd6a967431a871efb3b8dec9f82/index.m3u8
+
+
+
+#EXTINF:0 tvg-id="5812b7d3249444e05d09cc49-alt" group-title="Kids",Anime All Day
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Anime All Ages
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5be4c6311843b56328bce619/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",persiana Junior
+https://junhls.persiana.live/hls/stream.m3u8
+
+
+#EXTINF:0 tvg-id="5ca673e0d0bd6c2689c94ce3" group-title="Kids",Nick Pluto TV
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="62bdb6a83c6e37000726823b" group-title="Kids",Nick Pluto TV
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62bdb6a83c6e37000726823b/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="INBA4900026FJ" group-title="Kids",TG
+https://i.mjh.nz/SamsungTVPlus/INBA4900026FJ.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",My Kids Hd
+http://210.210.155.37:80/session/83155406-d2af-11ed-b03c-b82a72d63267/x6bnqe/h/h191/index.m3u8?app_type=web&userid=558418&tkn=HEJX7YCG335HJE4WBH73VAG1M8ZE7NLH&chname=My_Kidz_HD
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Toon Googles
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=36&live=1&app_bundle=com.plexapp.desktop&did=df8e1a36-847d-5096-86a7-3803ed330ede&app_domain=app.plex.tv&app_name=plex&h=691&w=1224&content_title=MorUy57ijWhGe4ixZb_T&content_series=5f123330eca6a20040b328e8&custom4=plex&gdpr=1&device_make=Windows&device_model=Firefox&coppa=1&us_privacy=1---&checkedby:iptvcat.com
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",TG Toon Googles
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37&live=1&app_bundle=com.plexapp.desktop&did=df8e1a36-847d-5096-86a7-3803ed330ede&app_domain=app.plex.tv&app_name=plex&h=691&w=1224&content_title=MorUy57ijWhGe4ixZb_T&content_series=5eea605574085f0040ddc794&custom4=plex&gdpr=1&device_make=Windows&device_model=Firefox&coppa=1&us_privacy=1---&checkedby:iptvcat.com
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Kidoodle tv
+https://7c16fcbdbd1b4a74b712c2052303b6bb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_KidoodleTV/playlist.m3u8?ads.wurl_channel=484&ads.wurl_name=KidoodleTV&ads.us_privacy=1---&ads.psid=bb9c17a0-efe0-54bb-b0fc-c9af81b09ceb&ads.targetopt=0&ads.plex_token=8ASSa8Yyj_DzgYNzsgzU&ads.plex_id=5eea605574085f0040ddc79a&ads.ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F103.0.0.0%20Safari%2F537.36&ads.app_bundle=com.plexapp.ctv&ads.app_store_url=https%3A%2F%2Fapp.plex.tv&ads.gdpr=0&ads.consent=0&ads.coppa=1&ads.device_type=tv&ads.device_id_type=
+#EXTINF:0 tvg-id="Nicktoons.uk" group-title="Kids",nicktoons
+http://89.254.128.5:22280/nicktoons/video.m3u8
+
+#EXTINF:0 tvg-id="Nicktoons.uk" group-title="Kids",nicktoons (backuP)
+http://143.244.60.30/NICKTOONS/index.m3u8
+
+#EXTINF:0 tvg-id="Nicktoons.uk" group-title="Kids",nicktoons (backup 2)
+https://stream01.vnet.am/Boomerang/mono.m3u8
+
+#EXTINF:0 tvg-id="Nicktoons.uk" group-title="Kids",NICKELODEON EAST
+http://143.244.60.30/NICKELODEON/index.m3u8
+
+#EXTINF:0 tvg-id="56171fafada51f8004c4b40f" group-title="Kids",Forever Kids
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/56171fafada51f8004c4b40f/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="5db0ad56edc89300090d2ebb" group-title="Kids",Kids Movie Club
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5db0ad56edc89300090d2ebb/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="60fb01a24795a6000762fe83" group-title="Kids",Lego Kids
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60fb01a24795a6000762fe83/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="60f9ebb06f0b3d000746fbdb" group-title="Kids",Team Spirit
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60f9ebb06f0b3d000746fbdb/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="60fb053712f22a0007ff14d2" group-title="Kids",Transformers TV
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60fb053712f22a0007ff14d2/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="63d8ed19a9957100086f4d33" group-title="Kids",Transformers
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/63d8ed19a9957100086f4d33/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="63da36dea995710008727d4d" group-title="Kids",Transformers
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/63da36dea995710008727d4d/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="5d0c16d686454ead733d08f8" group-title="Kids",TOTALLY TURTLES
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d0c16d686454ead733d08f8/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="5ca673e0d0bd6c2689c94ce3" group-title="Kids",Nick Pluto Tv
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Anime TV
+https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
+
+
+
+#EXTINF:0 tvg-id="CABC2300017XX" group-title="Kids",happy kids
+https://i.mjh.nz/SamsungTVPlus/CABC2300017XX.m3u8
+
+#EXTINF:0 tvg-id="ATBA330001376" group-title="Kids",rakuteen family
+https://i.mjh.nz/SamsungTVPlus/ATBA330001376.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",PBS FULL Kids
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Anime All day
+http://service-stitcher-ipv4.clusters.pluto.tv/v1/stitch/embed/hls/channel/5be4c6311843b56328bce619/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&embedPartner=samsung-tvplus
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",pop max
+https://live-sonybebanjo.simplestreamcdn.com/live8/popmax/bitrate1.isml/live.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",rakuten family
+https://rakuten-family-6-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="TinyPop.uk" group-title="Kids",tiny pop
+https://i.mjh.nz/SamsungTVPlus/GBBD3200003T6.m3u8
+
+#EXTINF:0 tvg-id="pop.uk" group-title="Kids",pop
+https://i.mjh.nz/SamsungTVPlus/GBBC430000128.m3u8
+
+#EXTINF:0 tvg-id="pop.uk" group-title="Kids",Supertoons tv
+https://i.mjh.nz/SamsungTVPlus/GBBD5100001HL.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",Kartoon Channel!
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
+
+#EXTINF:0 tvg-id="60fb040d4795a6000762fe8f" group-title="Kids",Kartoon Channel! (TubiTV)
+https://raw.githubusercontent.com/jack78692/ch/master/kartoonch.m3u8
+
+#EXTINF:0 tvg-id="60fb040d4795a6000762fe8f" group-title="Kids",Kartoon Channel! (Plutotv)
+https://i.mjh.nz/PlutoTV/60fb040d4795a6000762fe8f-alt.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Kids",kidswink
+https://origin3.afxp.telemedia.co.za/PremiumFree/kiddiwinks/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="Kids",kidoodletv
+https://kidoodletv-kdtv-1-ca.samsung.wurl.tv/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="Kids",moonbugs kids
+https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="Kids",pbc kids
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
+#EXTINF:0 tvg-id="ext" group-title="Kids",zoomoo tv
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="Kids",kids tv
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv/master_en.m3u8
+
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 
+ 
+#EXTINF:0 tvg-id="natgeo_hd" group-title="Infotainment",Sony BBC Earth HD (hindi)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1118064&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="natgeo_hd" group-title="Infotainment",Sony BBC Earth HD (Multi Audio)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+http://119.156.26.155:8000/play/a07c
+
+
+
+#EXTINF:0 tvg-id="natgeo_hd" group-title="Infotainment",NAT GEO HD*
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+
+
+#EXTINF:0 tvg-id="natgeo_hd" group-title="Infotainment",NAT GEO WILD HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155989&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ts616" group-title="Infotainment",History TV 18 HD
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156018&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ts219" group-title="Infotainment",Discovery Science
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+https://varun-iptv.netlify.app/m3u/Discovery_Science.m3u8
+
+#EXTINF:0 tvg-id="ts219" group-title="Infotainment",Discovery HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+https://raw.githubusercontent.com/jack78692/ch/master/discovery.m3u8
+
+#EXTINF:0 tvg-id="ts130" group-title="Infotainment",Animal Planet HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+https://raw.githubusercontent.com/jack78692/ch/master/animalplanet.m3u8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - -- -- - - - - - - - - 
+#EXTINF:0 tvg-id="BBC4.uk" group-title="Infotainment",Real Wild
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://i.mjh.nz/Plex/5e20b730f2f8d5003d739db7-63584a0cf8e2be1350f802a4.m3u8
+
+
+#EXTINF:0 tvg-id="BBC4.uk" group-title="Infotainment",Love 4K Nature 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",Star Sports 1 Hindi HD
+http://103.131.214.129:9985/stream/channelid/1974957513?ticket=E18B8998CE1375DB35A552EC729DFF3B47B7038C&profile=pass
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",Star sports 1 hindi
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=282674&extension=ts&play_token=cyl3JmHrJp
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",IPL Live Match
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://prod-ent-live-gm.jiocinema.com/out/v1/81e640e5a2c74eb98201959a31a008a3/master.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",IPL Live Match 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://prod-ent-live-gm.jiocinema.com/out/v1/175d164d6001491aacbb1d22c3c2bfbe/master.m3u8
+
+
+
+#EXTINF:0 tvg-id="esp-hd" group-title="Sports",Eurosport HD
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01448-samsungin-eurosporthdin-samsungin/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
+
+
+#EXTINF:0 tvg-id="TenCricket.in" group-title="Sports",Sony Ten 3 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://pubads.g.doubleclick.net:443/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",WWE UK
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=175006&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",WWE Channel (AF)
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=131113&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",AEW  (UK)
+http://45.158.254.15/play/live.php?mac=00:1a:79:1D:13:13&stream=1034770&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",Shahid WWE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1395147&extension=ts&play_token=BJ8BlxmJQe
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",Netflix WWE
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1414083&extension=ts&play_token=BJ8BlxmJQe
+
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",TNA Wrestling
+https://r.mjh.nz/PlutoTV/59b722526996084038c01e1b-alt.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",Fight TV
+https://i.mjh.nz/SamsungTVPlus/INBC2800017OC.m3u8
+
+#EXTINF:0 tvg-id="59b722526996084038c01e1b" group-title="Sports",Impact Wrestling
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/59b722526996084038c01e1b/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="62ea4dadce395f0007086df2" group-title="Sports",IMPACT Wrestling
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62ea4dadce395f0007086df2/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+
+#EXTINF:0 tvg-id="avi" group-title="Sports",ATNNAT
+https://d10rltuy0iweup.cloudfront.net/ATNNAT/myStream/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",Sports 18 1 HD
+http://tv.cloudcdn.me/live.ts?channelId=102479&uid=4944&deviceMac=00:1A:79:94:98:FE
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",Sports 18 1 HD (backup)
+http://103.120.172.74:5500
+
+#EXTINF:0 tvg-id="ext" group-title="Sports",Sports18 Khel*
+
+
+
+
+- - - - - - - - - -- - - - - - - - -- - - - - - -- - - - - - - - - - - -
+#EXTINF:0 tvg-id="IslamTVUrdu.uk" group-title="Islamic",Islam Ch Urdu
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://live-islamtv-urdu.simplestreamcdn.com/live7/islamtv_urdu/bitrate1.isml/live.m3u8
+
+
+#EXTINF:0 tvg-id="IslamTVUrdu.uk" group-title="Hindi",primecanada
+http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Islamic",Channel Win
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Islamic",Ashrafi Channel
+http://ashrafichannel.livebox.co.in/ashrafivhannelhls/live.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Islamic",The Light
+https://cdn.live247stream.com/thelight/tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Islamic",Ali TV
+https://alitv.livebox.co.in/alitvhls/live.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Islamic",Makkah Live
+http://m.live.net.sa:1935/live/quran/playlist.m3u8
+
+
+#EXTINF:0 tvg-id="PeaceTV.uk" group-title="Islamic",Peace TV
+http://82.114.67.178:8081/hls/PeaceTV.m3u8
+
+- - - - - - - - - - - - - - - - -
+
+#EXTINF:0 tvg-id="ext" group-title="English USA",Best Thriller Movies
+https://streams.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/anyaott4_sofast/60917caa-de31-4fed-9e63-bafffb5f5a7e_0_HLS/manifest.m3u8?channel_name=?channel_name=bestthrillertv
+
+#EXTINF:0 tvg-id="zagorodny" group-title="English USA",Best Action Movies
+https://streams.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/anyaott4_sofast/3857ca76-db9a-4928-ba0f-cc43be5eb7c9_0_HLS/manifest.m3u8?channel_name=bestactiontv
+
+#EXTINF:0 tvg-id="INBC43000034X" group-title="SamsungTVPlus",BEST ACTION TV
+https://i.mjh.nz/SamsungTVPlus/INBC43000034X.m3u8
+#EXTINF:0 tvg-id="ext" group-title="SamsungTVPlus",Rakuten Family UK
+https://rakuten-family-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="SamsungTVPlus",Rush
+https://rush-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-rush/CDN/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="SamsungTVPlus",Rakuten Top Free
+https://rakuten-topfree-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="SamsungTVPlus",Rakuten Action movies
+https://rakuten-actionmovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="SamsungTVPlus",Electic Now
+https://dai.google.com/linear/hls/event/KsvJAc81Qoewj6opYso6Fw/master.m3u8
+
+
+
+#EXTINF:-1 tvg-id="LocalNow_DarkMatterTV" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/6361119ca463ed8dc60ffe62" group-title="SamsungTVPlus",Dark Matter TV
+https://dcicealhbcymw.cloudfront.net/strm/link/darkmatter.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="English USA",filmrise family
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="English USA",Film Hub
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmhub/CDN/playlist.m3u8
+
+#EXTINF:0 tvg-id="5dc3fc6b9133f500099c7d98" group-title="PlutoTV",Pluto Family movie club
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc3fc6b9133f500099c7d98/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="5dc02a44a9518600094273ac" group-title="PlutoTV",Pluto Scifi
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc02a44a9518600094273ac/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",Family Flix
+https://linear-137.frequency.stream/dist/localnow/137/hls/master/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",Kids Flix
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50&live=1&app_bundle=com.plexapp.desktop&did=df8e1a36-847d-5096-86a7-3803ed330ede&app_domain=app.plex.tv&app_name=plex&h=691&w=1224&content_title=MorUy57ijWhGe4ixZb_T&content_series=5f123330eca6a20040b328e8&custom4=plex&gdpr=1&device_make=Windows&device_model=Firefox&coppa=1&us_privacy=1
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",NEW K MOVIES
+https://ads.its-newid.net/api/manifest.m3u8?tp=samsung_tvplus&channel_name=newmovies&channel_id=newid_013&apikey=b97c7a7d0c82424bb607e141ef215779&auth=ef4722f8-0f04540c-5195b5f1-d5b74e3a&ads.device
+#EXTINF:0 tvg-id="ext" group-title="English CH",Xing Kong International (360p) [Geo-blocked]
+http://210.210.155.35/x6bnqe/s/s94/index2.m3u8
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",Rakuten Action Movies UK (720p)
+https://rakuten-actionmovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="5c3f8f12a93c2d61b9990a4e" group-title="PlutoTV",TokuSHOUTsu
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c3f8f12a93c2d61b9990a4e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5c3f8f12a93c2d61b9990a4e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=54&terminate=false&userId=
+
+
+
+
+
+#EXTINF:0 tvg-id="5b4fc274694c027be6ed3eea" group-title="PlutoTV",pluto sci fi
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5b4fc274694c027be6ed3eea/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="58e55b14ad8e9c364d55f717" group-title="PlutoTV",Flicks of Fury
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/58e55b14ad8e9c364d55f717/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="6452c8cee1979c0008608e27" group-title="PlutoTV",Godzilla
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6452c8cee1979c0008608e27/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+
+#EXTINF:0 tvg-id="5c665db3e6c01b72c4977bc2" group-title="PlutoTV",Pluto TV Cult Films
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c665db3e6c01b72c4977bc2/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="5f4d863b98b41000076cd061" group-title="PlutoTV",Pluto TV Staff Picks
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4d863b98b41000076cd061/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="5c6dc88fcd232425a6e0f06e" group-title="PlutoTV",Pluto TV Terror
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c6dc88fcd232425a6e0f06e/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="569546031a619b8f07ce6e25" group-title="PlutoTV",Pluto TV Horror
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/569546031a619b8f07ce6e25/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="62ea3f8a38acc80007072d26" group-title="PlutoTV",Pluto TV Horror
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62ea3f8a38acc80007072d26/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="62bdb1c958cb95000782088c" group-title="PlutoTV",The Asylum
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62bdb1c958cb95000782088c/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="5b4e69e08291147bd04a9fd7" group-title="PlutoTV",Pluto tv thrillers
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5b4e69e08291147bd04a9fd7/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="5f4d8594eb979c0007706de7" group-title="PlutoTV",Pluto tv crime movies
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4d8594eb979c0007706de7/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="5b64a245a202b3337f09e51d" group-title="PlutoTV",Pluto tv fantastic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5b64a245a202b3337f09e51d/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="5a4d3a00ad95e4718ae8d8db" group-title="PlutoTV",Pluto tv comedy
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5a4d3a00ad95e4718ae8d8db/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="617b37b361e0fd0008cfd8c5" group-title="PlutoTV",Pluto TV Reaction
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/617b37b361e0fd0008cfd8c5/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+
+
+#EXTINF:0 tvg-id="5dc3fc6b9133f500099c7d98" group-title="PlutoTV",Pluto TV Family Movie Club
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc3fc6b9133f500099c7d98/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+
+#EXTINF:0 tvg-id="5dbfeb961b411c00090b52b3" group-title="PlutoTV",Pluto TV Action
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dbfeb961b411c00090b52b3/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+
+#EXTINF:0 tvg-id="561d7d484dc7c8770484914a" group-title="PlutoTV",Pluto TV Action
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/561d7d484dc7c8770484914a/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="64b585f84ea480000838e446" group-title="PlutoTV",Pluto icons
+
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/64b585f84ea480000838e446/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="5ba3fb9c4b078e0f37ad34e8" group-title="PlutoTV",Pluto TV Spotlight
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ba3fb9c4b078e0f37ad34e8/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="CAAJ2700014EE" group-title="SamsungTVPlus",FilmRise Action
+https://i.mjh.nz/SamsungTVPlus/CAAJ2700014EE.m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="SamsungTVPlus",MovieSphere
+https://moviesphere-samsung-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-id="61c0b0688a80a4000703fbcb" group-title="PlutoTV",Pluto TV Action
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61c0b0688a80a4000703fbcb/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="561d7d484dc7c8770484914a" group-title="PlutoTV",Pluto TV Action (684p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/561d7d484dc7c8770484914a/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=561d7d484dc7c8770484914a&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=54&terminate=false&userId=
+
+
+#EXTINF:0 tvg-id="569546031a619b8f07ce6e25" group-title="PlutoTV",Pluto TV Horror
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/569546031a619b8f07ce6e25/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",Pluto TV Paramount+ Picks (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ff8c708653d080007361b14/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",Pluto TV Terror (240p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c6dc88fcd232425a6e0f06e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5c6dc88fcd232425a6e0f06e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=76&terminate=false&userId=
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",Rakuten TV Films Action
+https://rakuten-actionmovies-7-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",Bloody Disgusting (1080p)
+https://bloodydisgusting-ingest-roku-us.cinedigm.com/playlist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",action hollywood movies
+https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/cb543d1e786c678a9dd43a62cef345a0f9591fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7753db80148b61299bce8c37683f03409a5e5afba358b1ebb55c14896fa4b21d55c67d17b39f43c88148a688d45e9d5ed574f1429a90f1ddd242d48ef31893688aa2d675581fb0ae3bf6e053b2d39b1b56f61309756e9e623ef1842a1d954e422698b5abed26979ba9f8b81775b74761cc6ffdfa1bd9870b87d26eeac19acc4b40768fcb576a26b4e49a479a5f3c9069e1abe5d17233ccb844380ffe64d626242f83bde520c49245d8e678c58360136e94ca0583cbe6caaf919d5a9020fdc2f6b3345601365755c80ef4da25f001e9558482532d554641edbd50c78dd617704147948f53d15c4ae88ac5d3915e759a20285bee61cb524a399f63222fb35f8cf0565b80280e8a222ebb0965f225d28c6ca4f795b57c78dfb8e04df068e3b070a2d50abb62315c42feb21b564b4872c7fd246a147cd04ef0dcdaeb145857b51bf4bccdba71974d60684a790de6dd05/179/1920x1080_4716800/index.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="PlutoTV",sony crakcle
+https://crackle-plex.amagi.tv/playlist720p.m3u8
+
+#EXTINF:0 tvg-id="63dbe8c8a9957100087798a3" group-title="PlutoTV",Pluto TV Kultfilmer
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/63dbe8c8a9957100087798a3/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+
+---------------------------------------------------
+
+#EXTINF:0 tvg-id="GBBA33000557H" group-title="SamsungTVPlus",MovieSphere
+#EXTVLCOPT:network-caching=1000
+https://i.mjh.nz/SamsungTVPlus/GBBA33000557H.m3u8
+#EXTINF:0 tvg-id="GBBC90001660" group-title="SamsungTVPlus",Top Movies - Rakuten TV
+https://i.mjh.nz/SamsungTVPlus/GBBC90001660.m3u8
+#EXTINF:0 tvg-id="GBAJ4900006TU" group-title="SamsungTVPlus",Action Movies - Rakuten TV
+https://i.mjh.nz/SamsungTVPlus/GBAJ4900006TU.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="SamsungTVPlus",DiscoverFilm
+https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
+
+
+---------------------------------------------------------------------
+#EXTINF:0 tvg-id="ext" group-title="News", Gujarat First
+
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1529338&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="News",Mantavya 24x7 News
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155807&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="News",India News GJ
+https://livetv.newsx.com/itv/itvnetwork62/playlist.m3u8
+
+#EXTINF:0 tvg-id="SandeshNewsDNN.in" group-title="News",Sandesh News
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155804&extension=m3u8
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="News",TV 9 Gujrat
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="News",VTV News
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=155806&extension=m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="News",GS TV
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=282581&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="News",ZEE 24 kalak
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=1529347&extension=m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="News",ABP Asmita
+https://d15zw4ny9nux40.cloudfront.net/out/v1/b2480519a89247d1855be3af8c2d3217/index.m3u8
+
+#EXTINF:0 tvg-id="AAJTAK.uk" group-title="News",Aaj Tak
+https://i.mjh.nz/SamsungTVPlus/INBC2800003RQ.m3u8
+#EXTINF:0 tvg-id="NDTV.uk" group-title="News",NDTV India
+https://i.mjh.nz/SamsungTVPlus/INBC2800002WJ.m3u8
+#EXTINF:0 tvg-id="RepublicBharat.uk" group-title="News",Republic Bharat
+https://i.mjh.nz/SamsungTVPlus/INBA490002119.m3u8
+#EXTINF:0 tvg-id="ABPNews.uk" group-title="News",ABP News
+https://i.mjh.nz/SamsungTVPlus/INBD400006H0.m3u8
+#EXTINF:0 tvg-id="ZeeNews.uk" group-title="News",Zee News
+https://i.mjh.nz/SamsungTVPlus/INBC4300010Z6.m3u8
+#EXTINF:0 tvg-id="IBN7.in" group-title="News",News18 India
+https://i.mjh.nz/SamsungTVPlus/INBD1300010WP.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",Times Now Navbharat
+https://i.mjh.nz/SamsungTVPlus/INBD1300003OW.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",TV9 Bharatvarsh
+https://i.mjh.nz/SamsungTVPlus/INBD25000054A.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",Good News Today
+https://i.mjh.nz/SamsungTVPlus/INBC2800004FU.m3u8
+#EXTINF:0 tvg-id="CNBCAWAAZ.in" group-title="News",CNBC AWAAZ
+https://i.mjh.nz/SamsungTVPlus/INBD1300007ST.m3u8
+#EXTINF:0 tvg-id="mir" group-title="News",Zee Business
+https://i.mjh.nz/SamsungTVPlus/INBD400004NS.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",India Today
+https://i.mjh.nz/SamsungTVPlus/INBC2800005X4.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",WION
+https://i.mjh.nz/SamsungTVPlus/INBD4000058T.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",Republic TV
+https://i.mjh.nz/SamsungTVPlus/INBA4900020A5.m3u8
+#EXTINF:0 tvg-id="NDTV.uk" group-title="News",NDTV 24X7
+https://i.mjh.nz/SamsungTVPlus/INBC2800001D8.m3u8
+#EXTINF:0 tvg-id="CNN-IBN.in" group-title="News",CNN News18
+https://i.mjh.nz/SamsungTVPlus/INBD1300009QZ.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",News9 Live
+https://i.mjh.nz/SamsungTVPlus/INBD25000021N.m3u8
+#EXTINF:0 tvg-id="NDTVProfit.in" group-title="News",NDTV Profit
+https://i.mjh.nz/SamsungTVPlus/INBC2800006GF.m3u8
+#EXTINF:0 tvg-id="CNBCTV18.in" group-title="News",CNBC TV18
+https://i.mjh.nz/SamsungTVPlus/INBD1300008ZY.m3u8
+#EXTINF:0 tvg-id="BloombergTV.us" group-title="News",Bloomberg TV
+https://i.mjh.nz/SamsungTVPlus/INBA5100021WP.m3u8
+#EXTINF:0 tvg-id="CNN.us" group-title="News",CNN
+https://i.mjh.nz/SamsungTVPlus/INBD1300022TS.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",Bloomberg Originals
+https://i.mjh.nz/SamsungTVPlus/INBA5100022O4.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",TV9 Gujarati
+https://i.mjh.nz/SamsungTVPlus/INBD1300012GJ.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",ABP Asmita
+https://i.mjh.nz/SamsungTVPlus/INBD400010BD.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",Zee 24 Kalak
+https://i.mjh.nz/SamsungTVPlus/INBD4000027E.m3u8
+
+#EXTINF:0 tvg-id="TRTWorld.uk" group-title="News",TRT World
+https://tv-trtworld.live.trt.com.tr/master.m3u8
+#EXTINF:0 tvg-id="nhk-world" group-title="News",NHK World
+https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
+#EXTINF:0 tvg-id="kbsworld" group-title="News",KBS World
+https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+
+#EXTINF:0 tvg-id="DW.al" group-title="News",DW
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8
+#EXTINF:0 tvg-id="ext" group-title="News",Channel News Asia
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:0 tvg-id="CGTN.cn" group-title="News",CGTN
+http://iptv.prosto.tv:7000/ch84/video.m3u8
+#EXTINF:0 tvg-id="PressTV.uk" group-title="News",press tv
+https:\\cdnlive.presstv.ir\cdnlive\smil:cdnlive.smil\playlist.m3u8
+
+#EXTINF:0 tvg-id="AlJazeera.nws" group-title="News",Al Jazeera HD
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+
+
+
+### Series and Movies ###
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E01
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1Xrr5XGC7zqDdfqVCa7CRA0LOFgF_itjs?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E02
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1_Z0Qy6j6bpOtgjKFod6lrrmD4PZsBF3I?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E03
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1FcYvJchv5f11cRhAEwmGpmsy5k5MFuOg?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E04
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1ZgXoW6x0CtQnNLC3sTtgAlr7s8-1rA_c?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E05
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1zalfCWvsctnUPaz_UPcOXs9FhAnnSSow?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E06
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1E81vK8CEvDFdJ36zNbsKf7Wez7QHWJ2t?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E07
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1LqsPmd4w6smoorcnusbUD2vHLU1OpOfi?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E08
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1756ldZrLvEfQtE_SmLBPEl0M4sHs-HKw?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E09
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1bsMW4zh89_INdoy8-zkizKwcK74oxm24?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E10
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1ZTB3Cqcfxr6Z7mryoP18-su3IqIQ0_rW?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E11
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1WTUHIvGY13cOJVcZc81rUFgQz2SCq-i9?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Spy family S1 E12
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/18Mpod3R2hdqtkBtCHc_H11vTXExlsDq8?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",One Piece Gold Movie Hindi Dubbed
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1z9A1HTomk74EQR1xxy3gRdnL9ObJ4hrV?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Black Clover Sword Of The Wizard King (2023)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1GXxlQHf7ZfIcdgwL-8DRcVNvuM1paB-x?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Doraemon The Movie Nobita In Gol Gol Golmaal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1IHI9lY35f1JfPXDK2-T6wKF73KaLSrDa?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",Chainsaw man
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://111opm.vkcdn5.com/olaxlibcthuiolyobgjkdulfgylgekh32geh3qauxtju4pmnix2yhh4xzpaa/v.mp4
+
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",My Hero Academia S1 E01
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pixeldra.in/api/file/E3H2z5Ai?download
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",My Hero Academia S1 E02
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pixeldra.in/api/file/E198EjCG?download
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",My Hero Academia Two Heroes
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/files/1Gs3W6pOTUcMlW0noPAa-PNUCZXAIqCwM?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",The Bad Guys: A Very Bad Holiday (2023)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pixeldra.in/api/file/cULkFaDz?download
+
+
+#EXTINF:0 tvg-id="ext" group-title="Anime",test
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://www.googleapis.com/drive/v3/file
+
+### Movies ####
+#EXTINF:0 tvg-id="ext" group-title="Movies & Series",Jaysuk Jadpyo
+https://www.googleapis.com/drive/v3/files/1lyKI-wC_nxqe3-2XdI93y4x0z_7_rQ_v?alt=media&key=AIzaSyCSeiB5n2SWRt2eRDNjQ7lW4KZhJGieKBw
+
+#EXTINF:0 tvg-id="ext" group-title="Movies & Series",Blue Beetle (2023)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pixeldra.in/api/file/X28npx3u?download
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies & Series",Indiana Jones and the Raiders of the Lost Ark (1981) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pixeldrain.com/api/file/p3J4buS5?download
+
+#EXTINF:0 tvg-id="ext" group-title="Movies & Series",Indiana Jones and the Temple of Doom (1984)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+
+#EXTINF:0 tvg-id="ext" group-title="Movies & Series",Indiana Jones and the Last Crusade (1989)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pixeldra.in/api/file/E2WTuTmf?download
+
+#EXTINF:0 tvg-id="ext" group-title="Movies & Series",Indiana Jones And The Kingdom of the Crystal Skull (2008)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pixeldra.in/api/file/fCCfudL6?download
+
+#EXTINF:0 tvg-id="ext" group-title="Movies & Series",IkÃƒÂ© Boys (2021) Hindi Dubbed
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pixeldra.in/api/file/cb6jWFKj?download
+
+#EXTINF:0 tvg-id="ext" group-title="Movies & Series",Dhoomam (2023)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pksovhj101.vkcdn5.com/olaxk2zythuiolyobgjkdatemqk66nbb5jnbfzdlqczyb5mya3nb3mdrsrwq/v.mp4
